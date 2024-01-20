@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Tutorial: credits to CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">  
+    <title> JavaScript Todo List App | CodingNepal</title>
+
+    <!-- Styling setup -->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  </head>
+
+  <body>
+	  
+    <div class="wrapper">
+	    <!-- ***Wrapper*** -->
+
+	    <!-- Task input -->
+      <div class="task-input">
+        <img src="bars-icon.svg" alt="icon">
+        <input type="text" placeholder="Add a new task">
+      </div>
+
+      <!-- ***Controls*** -->
+      <div class="controls">
+
+	      <!-- Filters -->
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+
+	<!-- Button -->
+        <button class="clear-btn">Clear All</button>
+
+      </div>
+
+      <!-- Task Box -->
+      <ul class="task-box"></ul>
+
+    </div>
+    <!-- end of Wrapper -->
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
